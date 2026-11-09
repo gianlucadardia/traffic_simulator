@@ -1,0 +1,10 @@
+eventhub
+azure-identity
+azure-eventhub-checkpointstoreblob-aio
+azure-eventhub-checkpointstoreblob
+azure-eventhub
+azure-mgmt-resource
+aiohttp
+flask
+numpy
+scipy

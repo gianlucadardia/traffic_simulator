@@ -1,0 +1,10 @@
+NodeUnmanagable
+CustomPollWarning
+InterfaceInputQueueDropsRateHigh
+RrgNoPrimary
+InterfaceDown
+RrgNoSecondary
+IslandGroupDown
+RrgMultiplePrimary
+NodeOrConnectionDown
+NodeDown

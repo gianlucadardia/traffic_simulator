@@ -1,0 +1,12 @@
+HI i need your help to find a way to perfomr some traffic simulation using a python program.
+I have thousand of sample records, formed by several columns with many properties related to the entity involved.
+Each colum rapresent a property of entity. most important column are two fields date: time_first and reg_modified.
+Following a row sample:
+MESS_SOURCE,MESS_ID,NODE_UUID,STATO_AGENZIA,CLASSIFICATION,GRUPPO,MIGRATO,FRAZ,REG_MODIFIED,DENOMINAZIONE,COMUNE,POLO,ATM_FLAG,HOTSPOT,SIGLA_PROVINCIA,REGIONE,CC,TIME_FIRST,DURATA,NODE_NAME,MGMT_ADDR,DEVICE_TYPE,SOURCE_NAME,DEVICE_TYPE_1,FORMATTED_MESSAGE,SEVERITY,OWNED_BY,FORCED_BY,NAME,FAMILY,DEVICE_ID,MEDIA_ACCESS_TECH,UMTS_FLAG,TYPE,WIFI
+NNM8,8768e015-e158-4e54-8b71-fe936d2c7d02,451f3ac7-18fb-4140-a42a-fe311287bd6a,APERTA,UP3,UFF_POST,1,65099,2025-01-21T15:13:42.000Z,OLMI,SAN BIAGIO DI CALLALTA,VENEZIA,1,2,TV,VENETO,FIELD,2025-01-21T14:49:24.000Z,+000000000 00:24:17.288,pta-65099-tv-olmi,10.249.198.81,ROUTER (C.E.) T.I.R.,Atm2/0/0.1,ROUTER (C.E.) T.I.R.,Interface Down Atm2/0/0.1   - BACKUP - WAN ( Mpls; #; 42213017398; R-VE107; ge-3/0/0.1341; ),critical,,,InterfaceDown,92,2900476,0,0,Router,FALSE
+I need to generate this rows, in order to send them to a eventhub. I already have the code to sent event to the hub. I need a strategy and relative code to generate
+this rows. I'd like to pack rows in identified "specific patterns". This patterns involve the same value for the columns, but a change in time_first and reg_modified value.
+could you help me?
+
+
+Data preview "from_rtevent_to_eventhouse": ["While sampling data, no data was received from '4' partitions."]

@@ -1,0 +1,6 @@
+**/__pycache__/*
+.tsim/*
+.venv/*
+.env
+.env.*
+!.env.example
